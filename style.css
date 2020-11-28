@@ -1,0 +1,149 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+} */
+
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #a58361; */
+  background-color: #ebe1d8;
+  overflow: hidden;
+}
+
+.sadAlert,
+.happyAlert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+*:focus {
+  outline: none;
+}
+
+button:hover {
+  color: hsl(0, 0%, 29%);
+}
+
+.happybutton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+
+  background-color: #2dd05b;
+  box-shadow: 2px 2px #89ffaa;
+}
+
+.sadbutton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+
+  background-color: #ea3f3f;
+  box-shadow: 2px 2px #fd9797;
+}
+
+/* happy notification box*/
+
+.happyAlert {
+  width: 270px;
+  height: 320px;
+  background-color: white;
+  margin: 0;
+  border-radius: 30px;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+img {
+  width: 140px;
+  margin-top: -50px;
+}
+
+.line1 {
+  font-family: "Patrick Hand SC";
+  font-size: 20px;
+  color: #2dd05b;
+}
+
+.line2 {
+  font-family: "Patrick Hand SC";
+  font-size: 15px;
+}
+
+.yay {
+  border-radius: 25px;
+  font-family: "Patrick Hand SC";
+  color: black;
+  font-size: 15px;
+  padding: 12px 50px;
+  background-color: #2dd05b;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* sad notification box */
+
+.sadAlert {
+  width: 270px;
+  height: 320px;
+  background-color: white;
+  margin: 0;
+  border-radius: 30px;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+img {
+  width: 140px;
+  margin-top: -50px;
+}
+
+.line3 {
+  font-family: "Patrick Hand SC";
+  font-size: 20px;
+  color: #ea3f3f;
+}
+
+.line4 {
+  font-family: "Patrick Hand SC";
+  font-size: 15px;
+}
+
+.okay {
+  border-radius: 25px;
+  font-family: "Patrick Hand SC";
+  color: black;
+  font-size: 15px;
+  padding: 12px 50px;
+  background-color: #ea3f3f;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
